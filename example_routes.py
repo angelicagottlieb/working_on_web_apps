@@ -3,6 +3,7 @@ from lib.book_repository import BookRepository
 from lib.book import Book
 from flask import request
 
+
 # You won't need to nest your routes in app.py in a method like this
 def apply_example_routes(app):
     # GET /books
